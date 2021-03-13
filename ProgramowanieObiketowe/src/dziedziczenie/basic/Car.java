@@ -2,7 +2,7 @@ package dziedziczenie.basic;
 
 public class Car extends Vehicle {
 
-    //nowy konstruktor z przypisaniami nadpisze nam przypisania z klasy nadrżedniej Vehicle
+    //nowy konstruktor z przypisaniami nadpisze nam przypisania z klasy nadrzędniej Vehicle
     Car() {
         this.manufacturer = "Ford";
         this.topSpeed = 130.00f;

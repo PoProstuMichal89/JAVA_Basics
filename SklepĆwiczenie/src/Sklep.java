@@ -1,6 +1,7 @@
 class Towar{
     public String nazwa;
     public float cena;
+
     Towar(String nazwa,float cena){
         this.nazwa=nazwa;
         this.cena=cena;
@@ -117,6 +118,7 @@ public class Sklep {
         ElemZam element2 = new ElemZam(głosnikMarshal);
         ElemZam element3= new ElemZam(kabelMniJack);
         ElemZam element4= new ElemZam(etui);
+        
 
 
          Zamówienie zamówienie1 = new Zamówienie();
