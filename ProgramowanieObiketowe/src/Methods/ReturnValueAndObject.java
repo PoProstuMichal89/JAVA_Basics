@@ -31,7 +31,7 @@ class MathMethods{
     }
 
     public Square getNewSqare(float side){
-        Square kwadrat = new Square(12.0f);
+        Square kwadrat = new Square(side);
         return kwadrat;
     }
 
@@ -54,6 +54,8 @@ public class ReturnValueAndObject {
         //kwadrat
         Square kwadrat=math.getNewSqare(44);
         System.out.println(kwadrat.side);
+
+        Square kwadrat2 = math.getNewSqare(33.00f);
 
     }
 

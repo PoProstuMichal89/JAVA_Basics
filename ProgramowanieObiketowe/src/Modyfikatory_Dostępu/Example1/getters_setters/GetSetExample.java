@@ -1,0 +1,44 @@
+package Modyfikatory_Dostępu.Example1.getters_setters;
+
+class TestClass{
+    private String name;
+    private int number;
+
+    public TestClass() {
+        name="uknonw";
+        number=0;
+    }
+
+    public TestClass(String name, int number) {
+        this.name = name;
+        this.number = number;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+}
+
+public class GetSetExample {
+
+    public static void main(String[] args) {
+
+        TestClass test = new TestClass();
+        test.setNumber(2);
+        System.out.println(test.getNumber());
+
+    }
+
+}
